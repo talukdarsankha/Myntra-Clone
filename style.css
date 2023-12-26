@@ -1,0 +1,218 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+header{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    height: 66px;
+    box-shadow: rgba(68, 70, 71, 0.3) 0px 1px 2px 0px, rgba(52, 56, 59, 0.15) 0px 2px 6px 2px;
+}
+.flex img{
+    height: 50px;
+    width: 100px;
+}
+.container{
+   padding: 0px 5vw;
+    /* background-color: aqua; */
+    /* margin: auto; */
+   
+    
+}
+nav{
+    font-size: 12px;
+    padding-top: 14px;
+}
+nav ul li{
+    list-style: none;
+    padding: 0px 12px;
+}
+
+.section1{
+    background-color: rgb(237, 239, 240);
+    height: 111vw;
+}
+
+.search{
+
+ width: 25vw;
+ padding: 6px 19px;
+ background-color: rgb(244, 248, 248);
+ border-radius: 3px;
+
+}
+
+.section1 img{
+    width: 90vw;
+    /* border: black solid 5px; */
+    margin: auto;
+    padding: 10px 5px;
+}
+.section2{
+    margin: 3px 1px;
+    background-color: rgb(237, 239, 240);
+    height: 69vw;
+}
+.section2 img{
+    width: 21vw;
+    overflow: hidden;
+}
+
+footer{
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    /* margin: 0px 10px; */
+    padding: 10px 10px;
+    text-align: center;
+}
+
+@media only screen  and (max-width: 1152px) {
+    header{
+        /* background-color: blue; */
+    }
+    nav ul li{
+        padding: 0px 6px;
+    }
+}
+
+
+@media only screen and (max-width: 1050px) {
+    header{
+        /* background-color: rgb(39, 167, 35); */
+    }
+    .left{
+        margin-right: 10px;
+        margin-left: 0px;
+        
+    }
+    nav ul li{
+        padding: 0px 4px;
+    }
+    .uppercase{
+        margin-right: 60px;
+        padding-left: 15px;
+    }
+    .right{
+        margin-left: 70px;
+        /* flex-wrap: wrap; */
+        margin-right: 20px;
+    }
+   
+}
+
+
+@media only screen and (min-device-width:785px) and (max-device-width: 1016px) { 
+    header{
+        /* background-color: rgb(249, 233, 4); */
+    }
+    .right input{
+        width: 160px;
+    }
+   .left{
+    width: 100px;
+   }
+   .right{
+    width: 100px;
+    margin-right: 200px;
+   }
+   nav{
+    padding: 4px 6px;
+   }
+  
+}
+
+
+@media only screen and (min-device-width:600px) and (max-device-width: 784px) { 
+   header{
+    /* background-color: rgb(212, 17, 173); */
+    height: 90px;
+   }
+   nav{
+    flex-direction: column;
+    padding: 4px ;
+   }
+   .right input{
+    width: 3000px;
+   }
+   .right{
+    margin-left: 200px;
+   }
+}
+
+@media only screen and (max-device-width: 600px) { 
+    header{
+        /* background-color: rgb(233, 88, 26); */
+        height: 100px;
+    }
+    nav{
+        flex-direction: column;
+        padding: 4px ;
+       }
+       .right input{
+        width: 240px;
+       }
+       .right{
+        margin-left: 40px;
+        padding: 3px 3px;
+       }
+       .mx-2{
+        
+       
+       }
+
+}
+
+@media only screen and (max-device-width: 540px) { 
+    header{
+        /* background-color: rgb(233, 154, 120); */
+        height: 130px;
+    }
+    nav{
+        flex-direction: column;
+        padding: 4px ;
+       }
+       .right input{
+        width: 240px;
+       }
+       .right{
+        margin-left: 40px;
+        padding: 3px 3px;
+       }
+      
+    
+        .other{
+            flex-direction: column;
+        }
+        .left{
+         margin-right: 3000px;
+        }
+       .right{
+        margin-left: 30px;
+       }
+       .flex img{
+        height: 30px;
+        width: 30px;
+    }
+       
+
+}
+
+@media only screen and (max-device-width: 365px) { 
+    
+    .container{
+        width: 100vw;
+    }
+    nav ul li {
+        font-size: 10px;
+    }
+   
+}
